@@ -124,8 +124,14 @@ function checkExercise() {
   for (let i = 0; i < created_elements.childElementCount; i++) {
     for (let j = 0; j < exercise_elements.childElementCount; j++) {
       if (
-        created_elements.children[i].firstChild.outerHTML ===
-        exercise_elements.children[j].firstChild.outerHTML
+        created_elements.children[i].firstElementChild.outerHTML.replace(
+          /\s+/g,
+          ''
+        ) ===
+        exercise_elements.children[j].firstElementChild.outerHTML.replace(
+          /\s+/g,
+          ''
+        )
       ) {
         if (i === j) {
           created_elements.children[i].className = 'great';

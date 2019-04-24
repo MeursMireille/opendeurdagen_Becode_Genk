@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+body {
+  height: 100vw;
+  width: 100vw;
+  margin: 10px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(218, 241, 241),
+    rgb(2, 59, 61)
+  );
+  font-family: 'Merriweather', serif;
+}
+
+.img {
+  height: 200px;
+  width: 200px;
+  border: 3px solid rgb(6, 33, 34);
+  box-shadow: 0 0 4px rgb(189, 147, 31);
+  position: absolute;
+  right: 200px;
+  top: 130px;
+  animation-name: example;
+  animation-duration: 5s;
+}
+
+.ul {
+  align-content: space-between;
+  font-family: 'Merriweather', serif;
+}
+
+li {
+  display: inline;
+  align-content: space-between;
+  margin-left: 10px;
+}
+
+#h1 {
+  font-family: 'Merriweather', serif;
+  color: rgb(175, 206, 207);
+  background-color: rgb(12, 69, 71);
+  padding: 7px;
+  align-content: space-between;
+  box-shadow: 0 0 6px rgb(189, 147, 31);
+}
+
+#h2 {
+  font-family: 'Merriweather', serif;
+  color: rgb(175, 206, 207);
+  background-color: rgb(12, 69, 71);
+  padding: 7px;
+  align-content: space-between;
+  box-shadow: 0 0 6px rgb(189, 147, 31);
+}
+
+#h3 {
+  font-family: 'Merriweather', serif;
+  color: rgb(175, 206, 207);
+  background-color: rgb(12, 69, 71);
+  padding: 7px;
+  align-content: space-between;
+  box-shadow: 0 0 6px rgb(189, 147, 31);
+}
+
+#p {
+  font-family: 'Merriweather', serif;
+  color: rgb(175, 206, 207);
+  background-color: rgb(12, 69, 71);
+  padding: 7px;
+  align-content: space-between;
+  box-shadow: 0 0 6px rgb(189, 147, 31);
+}
+
+#ol {
+  font-family: 'Merriweather', serif;
+  color: rgb(175, 206, 207);
+  background-color: rgb(12, 69, 71);
+  padding: 7px;
+  align-content: space-between;
+  box-shadow: 0 0 6px rgb(189, 147, 31);
+}
+
+#ul {
+  font-family: 'Merriweather', serif;
+  color: rgb(175, 206, 207);
+  background-color: rgb(12, 69, 71);
+  padding: 7px;
+  align-content: space-between;
+  box-shadow: 0 0 6px rgb(189, 147, 31);
+}
+
+#li {
+  font-family: 'Merriweather', serif;
+  color: rgb(175, 206, 207);
+  background-color: rgb(12, 69, 71);
+  padding: 7px;
+  align-content: space-between;
+  box-shadow: 0 0 6px rgb(189, 147, 31);
+}
+
+#img {
+  font-family: 'Merriweather', serif;
+  margin-top: 20px;
+  color: rgb(175, 206, 207);
+  background-color: rgb(12, 69, 71);
+  padding: 7px;
+  align-content: space-between;
+  box-shadow: 0 0 6px rgb(189, 147, 31);
+}
+
+#Q {
+  font-family: 'Merriweather', serif;
+  color: rgb(175, 206, 207);
+  background-color: rgb(12, 69, 71);
+  padding: 7px;
+  align-content: space-between;
+  box-shadow: 0 0 6px rgb(189, 147, 31);
+}
+
+#hr {
+  font-family: 'Merriweather', serif;
+  color: rgb(175, 206, 207);
+  background-color: rgb(12, 69, 71);
+  padding: 7px;
+  align-content: space-between;
+  box-shadow: 0 0 6px rgb(189, 147, 31);
+}
+
+#br {
+  font-family: 'Merriweather', serif;
+  color: rgb(175, 206, 207);
+  background-color: rgb(12, 69, 71);
+  padding: 7px;
+  align-content: space-between;
+  box-shadow: 0 0 6px rgb(189, 147, 31);
+}
+
+#element_content {
+  margin-left: 45px;
+  height: 300px;
+  width: 600px;
+  border: rgb(2, 59, 61);
+  box-shadow: 5px 5px 5px rgb(65, 98, 102);
+}
+
+#element_preview {
+  margin-left: 45px;
+  border: rgb(2, 59, 61);
+}
+
+#cancel_new {
+  font-family: 'Merriweather', serif;
+  color: rgb(175, 206, 207);
+  background-color: rgb(12, 69, 71);
+  margin-left: 45px;
+  margin-top: 10px;
+  padding: 7px;
+  align-content: space-between;
+  box-shadow: 0 0 6px rgb(189, 147, 31);
+}
+
+#add_new {
+  font-family: 'Merriweather', serif;
+  color: rgb(175, 206, 207);
+  background-color: rgb(12, 69, 71);
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 7px;
+  align-content: space-between;
+  box-shadow: 0 0 6px rgb(189, 147, 31);
+}
+
+ul li h1 {
+  margin: 0;
+  padding: 0;
+  color: rgb(6, 33, 34);
+  text-shadow: 0 0 2px rgb(189, 147, 31), 0 0 3px rgb(185, 166, 111);
+  grid-area: m1;
+}
+
+ul li h2 {
+  margin: 0;
+  padding: 0;
+  color: rgb(6, 33, 34);
+  text-shadow: 0 0 2px rgb(189, 147, 31), 0 0 3px rgb(185, 166, 111);
+  grid-area: m2;
+}
+
+ul li p {
+  margin: 0;
+  padding: 0;
+  color: rgb(6, 33, 34);
+  text-shadow: 0 0 2px rgb(189, 147, 31), 0 0 3px rgb(185, 166, 111);
+  grid-area: p;
+}
+
+ul li q {
+  margin: 0;
+  padding: 0;
+  color: rgb(6, 33, 34);
+  text-shadow: 0 0 2px rgb(189, 147, 31), 0 0 3px rgb(185, 166, 111);
+  grid-area: q;
+}
+
+ul li h3 {
+  margin: 0;
+  padding: 0;
+  color: rgb(6, 33, 34);
+  text-shadow: 0 0 2px rgb(189, 147, 31), 0 0 3px rgb(185, 166, 111);
+  grid-area: h1;
+}
+
+ul li ol {
+  margin: 0;
+  padding: 0;
+  color: rgb(6, 33, 34);
+  text-shadow: 0 0 2px rgb(189, 147, 31), 0 0 3px rgb(185, 166, 111);
+  grid-area: h2;
+}
+
+ul li ul {
+  margin: 0;
+  padding: 0;
+  color: rgb(6, 33, 34);
+  text-shadow: 0 0 2px rgb(189, 147, 31), 0 0 3px rgb(185, 166, 111);
+  grid-area: h3;
+}
+
+.bad {
+  background-color: rgb(160, 7, 7);
+}
+
+.good {
+  background-color: rgb(182, 121, 7);
+}
+
+.great {
+  background-color: rgb(7, 136, 7);
+}
+
+@keyframes example {
+  0% {
+    right: 200px;
+    top: 130px;
+  }
+  25% {
+    right: 200px;
+    top: 250px;
+  }
+  50% {
+    right: 250px;
+    top: 250px;
+  }
+  75% {
+    right: 250px;
+    top: 130px;
+  }
+  100% {
+    right: 200px;
+    top: 130px;
+  }
+}

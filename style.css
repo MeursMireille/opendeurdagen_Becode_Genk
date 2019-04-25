@@ -4,11 +4,15 @@ body {
   height: 100vw;
   width: 100vw;
   margin: 10px;
+  margin: 0;
+  padding: 0;
   background-image: linear-gradient(
     to bottom right,
     rgb(218, 241, 241),
     rgb(2, 59, 61)
   );
+  background-color: blue;
+  background-size: cover;
   font-family: 'Merriweather', serif;
 }
 
@@ -112,7 +116,7 @@ body {
   box-shadow: 0 0 6px rgb(189, 147, 31);
 }
 
-#Q {
+#q {
   font-family: 'Merriweather', serif;
   color: rgb(175, 206, 207);
   background-color: rgb(12, 69, 71);
@@ -174,8 +178,13 @@ body {
   box-shadow: 0 0 6px rgb(189, 147, 31);
 }
 
-ul li h1 {
+#exercise_elements > li,
+#created_elements > li {
   list-style: none;
+  margin: 15px 0px;
+}
+
+ul li h1 {
   margin: 0;
   padding: 0;
   color: rgb(6, 33, 34);
@@ -183,7 +192,6 @@ ul li h1 {
 }
 
 ul li h2 {
-  list-style: none;
   margin: 2;
   padding: 0;
   color: rgb(6, 33, 34);
@@ -191,7 +199,6 @@ ul li h2 {
 }
 
 ul li p {
-  list-style: none;
   margin: 2;
   padding: 0;
   color: rgb(6, 33, 34);
@@ -199,8 +206,7 @@ ul li p {
 }
 
 ul li q {
-  list-style: none;
-  margin: 2;
+  margin: px;
   padding: 0;
   color: rgb(6, 33, 34);
   text-shadow: 0 0 2px rgb(189, 147, 31), 0 0 3px rgb(185, 166, 111);
@@ -229,15 +235,18 @@ ul li ul {
 }
 
 .bad {
-  background-color: rgb(160, 7, 7);
+  border-left: dashed rgb(160, 7, 7);
+  padding-left: 7px;
 }
 
 .good {
-  background-color: rgb(182, 121, 7);
+  border-left: dashed rgb(182, 121, 7);
+  padding-left: 7px;
 }
 
 .great {
-  background-color: rgb(7, 136, 7);
+  border-left: dashed rgb(7, 136, 7);
+  padding-left: 7px;
 }
 
 @keyframes example {

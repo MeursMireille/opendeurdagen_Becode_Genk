@@ -181,7 +181,7 @@ let tags = [
     attributes: [getSRC, getALT],
     closed: false
   },
-  { display_name: 'Quote', type: 'Q', attributes: [], closed: true },
+  { display_name: 'Quote', type: 'q', attributes: [], closed: true },
   { display_name: 'Thematic break', type: 'hr', attributes: [], closed: false },
   { display_name: 'Line break', type: 'br', attributes: [], closed: false }
 ];
